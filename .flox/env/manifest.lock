@@ -3,8 +3,11 @@
   "manifest": {
     "version": 1,
     "install": {
-      "k3d": {
-        "pkg-path": "k3d"
+      "ctlptl": {
+        "pkg-path": "ctlptl"
+      },
+      "go-task": {
+        "pkg-path": "go-task"
       },
       "kubectl": {
         "pkg-path": "kubectl"
@@ -27,15 +30,15 @@
   },
   "packages": [
     {
-      "attr_path": "k3d",
+      "attr_path": "ctlptl",
       "broken": false,
-      "derivation": "/nix/store/xqqzf25kp9c4mcgn9acs8kycqf4cr7r5-k3d-5.7.4.drv",
-      "description": "Helper to run k3s (Lightweight Kubernetes. 5 less than k8s) in a docker container",
-      "install_id": "k3d",
-      "license": "MIT",
+      "derivation": "/nix/store/wz41rp0f7yi5lhw69bq3zc95c43kyqzi-ctlptl-0.8.37.drv",
+      "description": "CLI for declaratively setting up local Kubernetes clusters",
+      "install_id": "ctlptl",
+      "license": "Apache-2.0",
       "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
-      "name": "k3d-5.7.4",
-      "pname": "k3d",
+      "name": "ctlptl-0.8.37",
+      "pname": "ctlptl",
       "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
       "rev_count": 729082,
       "rev_date": "2024-12-27T09:21:16Z",
@@ -44,27 +47,27 @@
         "unstable"
       ],
       "unfree": false,
-      "version": "5.7.4",
+      "version": "0.8.37",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/9rv6a5sv2m8g0pgfzawv5a2paxxcyxfp-k3d-5.7.4"
+        "out": "/nix/store/10gkm51n50mp6l08zwb1bcdqw9d1x3dl-ctlptl-0.8.37"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
       "priority": 5
     },
     {
-      "attr_path": "k3d",
+      "attr_path": "ctlptl",
       "broken": false,
-      "derivation": "/nix/store/lnhw6yml21wqs8nqhaiqza96vx4ad0zm-k3d-5.7.4.drv",
-      "description": "Helper to run k3s (Lightweight Kubernetes. 5 less than k8s) in a docker container",
-      "install_id": "k3d",
-      "license": "MIT",
+      "derivation": "/nix/store/diy8y1iygplfiv45kbzf08h8xly1dk8q-ctlptl-0.8.37.drv",
+      "description": "CLI for declaratively setting up local Kubernetes clusters",
+      "install_id": "ctlptl",
+      "license": "Apache-2.0",
       "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
-      "name": "k3d-5.7.4",
-      "pname": "k3d",
+      "name": "ctlptl-0.8.37",
+      "pname": "ctlptl",
       "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
       "rev_count": 729082,
       "rev_date": "2024-12-27T09:21:16Z",
@@ -73,27 +76,27 @@
         "unstable"
       ],
       "unfree": false,
-      "version": "5.7.4",
+      "version": "0.8.37",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/8s6ksmmwll832l7609sjf3k63bzvwqb7-k3d-5.7.4"
+        "out": "/nix/store/5cyd4rcgcpx61qp0zdsz0z85pvrhbq0g-ctlptl-0.8.37"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
       "priority": 5
     },
     {
-      "attr_path": "k3d",
+      "attr_path": "ctlptl",
       "broken": false,
-      "derivation": "/nix/store/kd93fv4za0h0gqj4hdcjlxilzkmlh7dn-k3d-5.7.4.drv",
-      "description": "Helper to run k3s (Lightweight Kubernetes. 5 less than k8s) in a docker container",
-      "install_id": "k3d",
-      "license": "MIT",
+      "derivation": "/nix/store/793f952c2ag8qcip369fm6ir2yl1w808-ctlptl-0.8.37.drv",
+      "description": "CLI for declaratively setting up local Kubernetes clusters",
+      "install_id": "ctlptl",
+      "license": "Apache-2.0",
       "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
-      "name": "k3d-5.7.4",
-      "pname": "k3d",
+      "name": "ctlptl-0.8.37",
+      "pname": "ctlptl",
       "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
       "rev_count": 729082,
       "rev_date": "2024-12-27T09:21:16Z",
@@ -102,27 +105,27 @@
         "unstable"
       ],
       "unfree": false,
-      "version": "5.7.4",
+      "version": "0.8.37",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/fww74m4vasdmpz00p2wsqngm996hbkqx-k3d-5.7.4"
+        "out": "/nix/store/h53iwmfllyn17rcr63lipk9hi3sc78ab-ctlptl-0.8.37"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
       "priority": 5
     },
     {
-      "attr_path": "k3d",
+      "attr_path": "ctlptl",
       "broken": false,
-      "derivation": "/nix/store/p0klxbam85939rz6vkdm5810xva36lk4-k3d-5.7.4.drv",
-      "description": "Helper to run k3s (Lightweight Kubernetes. 5 less than k8s) in a docker container",
-      "install_id": "k3d",
-      "license": "MIT",
+      "derivation": "/nix/store/r44riip1mq8hq6rhs56xl600pn9lc6p0-ctlptl-0.8.37.drv",
+      "description": "CLI for declaratively setting up local Kubernetes clusters",
+      "install_id": "ctlptl",
+      "license": "Apache-2.0",
       "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
-      "name": "k3d-5.7.4",
-      "pname": "k3d",
+      "name": "ctlptl-0.8.37",
+      "pname": "ctlptl",
       "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
       "rev_count": 729082,
       "rev_date": "2024-12-27T09:21:16Z",
@@ -131,12 +134,128 @@
         "unstable"
       ],
       "unfree": false,
-      "version": "5.7.4",
+      "version": "0.8.37",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/wvvsjwvky9998mq8pcb5ddnl09r2jjd2-k3d-5.7.4"
+        "out": "/nix/store/iw3awxh1p03lcdjlgp2f4dcx9mmvdd3a-ctlptl-0.8.37"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go-task",
+      "broken": false,
+      "derivation": "/nix/store/sh16a10l6h379akxfswcqhjb1zas5jqr-go-task-3.40.1.drv",
+      "description": "Task runner / simpler Make alternative written in Go",
+      "install_id": "go-task",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "go-task-3.40.1",
+      "pname": "go-task",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.40.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ipag7zla3bxcm1dk2fcq0gwlwapiwmyb-go-task-3.40.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go-task",
+      "broken": false,
+      "derivation": "/nix/store/ybjvdd4xysy7qvf0qkbh9v2lcdc82k06-go-task-3.40.1.drv",
+      "description": "Task runner / simpler Make alternative written in Go",
+      "install_id": "go-task",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "go-task-3.40.1",
+      "pname": "go-task",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.40.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/bjfbxf3pcwn0j44npk5z9wz5hx28vdl3-go-task-3.40.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go-task",
+      "broken": false,
+      "derivation": "/nix/store/rdsab0wf8q1mn3v5kmg9d8735hn13rs8-go-task-3.40.1.drv",
+      "description": "Task runner / simpler Make alternative written in Go",
+      "install_id": "go-task",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "go-task-3.40.1",
+      "pname": "go-task",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.40.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/q89vww5w2lciib7a1pamgyxh5kwj159i-go-task-3.40.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go-task",
+      "broken": false,
+      "derivation": "/nix/store/n2b80a3g4kgnhns9bcs0nf7csr4nyyyf-go-task-3.40.1.drv",
+      "description": "Task runner / simpler Make alternative written in Go",
+      "install_id": "go-task",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "go-task-3.40.1",
+      "pname": "go-task",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.40.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ds3s43anl3rwk5vz80n4kck2g7z7i1lp-go-task-3.40.1"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
