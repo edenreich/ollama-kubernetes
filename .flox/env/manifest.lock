@@ -1,0 +1,274 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "k3d": {
+        "pkg-path": "k3d"
+      },
+      "kubectl": {
+        "pkg-path": "kubectl"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "k3d",
+      "broken": false,
+      "derivation": "/nix/store/xqqzf25kp9c4mcgn9acs8kycqf4cr7r5-k3d-5.7.4.drv",
+      "description": "Helper to run k3s (Lightweight Kubernetes. 5 less than k8s) in a docker container",
+      "install_id": "k3d",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "k3d-5.7.4",
+      "pname": "k3d",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.7.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9rv6a5sv2m8g0pgfzawv5a2paxxcyxfp-k3d-5.7.4"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "k3d",
+      "broken": false,
+      "derivation": "/nix/store/lnhw6yml21wqs8nqhaiqza96vx4ad0zm-k3d-5.7.4.drv",
+      "description": "Helper to run k3s (Lightweight Kubernetes. 5 less than k8s) in a docker container",
+      "install_id": "k3d",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "k3d-5.7.4",
+      "pname": "k3d",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.7.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/8s6ksmmwll832l7609sjf3k63bzvwqb7-k3d-5.7.4"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "k3d",
+      "broken": false,
+      "derivation": "/nix/store/kd93fv4za0h0gqj4hdcjlxilzkmlh7dn-k3d-5.7.4.drv",
+      "description": "Helper to run k3s (Lightweight Kubernetes. 5 less than k8s) in a docker container",
+      "install_id": "k3d",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "k3d-5.7.4",
+      "pname": "k3d",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.7.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/fww74m4vasdmpz00p2wsqngm996hbkqx-k3d-5.7.4"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "k3d",
+      "broken": false,
+      "derivation": "/nix/store/p0klxbam85939rz6vkdm5810xva36lk4-k3d-5.7.4.drv",
+      "description": "Helper to run k3s (Lightweight Kubernetes. 5 less than k8s) in a docker container",
+      "install_id": "k3d",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "k3d-5.7.4",
+      "pname": "k3d",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.7.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/wvvsjwvky9998mq8pcb5ddnl09r2jjd2-k3d-5.7.4"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kubectl",
+      "broken": false,
+      "derivation": "/nix/store/p33f57gi0nflqlalfw9f79ajp4khb30j-kubectl-1.32.0.drv",
+      "description": "Kubernetes CLI",
+      "install_id": "kubectl",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "kubectl-1.32.0",
+      "pname": "kubectl",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.32.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "convert": "/nix/store/4kamlm1ii5j7zmivizvpl8l7nw4da1n8-kubectl-1.32.0-convert",
+        "man": "/nix/store/3nz42pz97757darq7yy930yh5l8xhb03-kubectl-1.32.0-man",
+        "out": "/nix/store/i8cpdk16v3gj7bx0wh009xsr3zjyykdy-kubectl-1.32.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kubectl",
+      "broken": false,
+      "derivation": "/nix/store/qb8njgz025djfj23kixf2blxj5xwrwns-kubectl-1.32.0.drv",
+      "description": "Kubernetes CLI",
+      "install_id": "kubectl",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "kubectl-1.32.0",
+      "pname": "kubectl",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.32.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "convert": "/nix/store/av3jckh7q3lswq8p0bfwiirvbpp0rvyz-kubectl-1.32.0-convert",
+        "man": "/nix/store/3cl305jf0x48ad2gkhhgbi5gnsmrcci6-kubectl-1.32.0-man",
+        "out": "/nix/store/df7cvpjy0wm1c5z6l44qb9085yfx72yn-kubectl-1.32.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kubectl",
+      "broken": false,
+      "derivation": "/nix/store/c53gh4pbm2s5fzsxx4gl95qw29ylnnxj-kubectl-1.32.0.drv",
+      "description": "Kubernetes CLI",
+      "install_id": "kubectl",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "kubectl-1.32.0",
+      "pname": "kubectl",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.32.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "convert": "/nix/store/pcjy7wd5dm98iyw8qybq7mn5bbd906kc-kubectl-1.32.0-convert",
+        "man": "/nix/store/9dj1jjvk7wp5nn20j7m00yrb6m12sxhh-kubectl-1.32.0-man",
+        "out": "/nix/store/qqxzggng2kw7z7dzvyajfwixmz923k3w-kubectl-1.32.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kubectl",
+      "broken": false,
+      "derivation": "/nix/store/06yc80k4j9qf08mx693yz6xyfv40c13m-kubectl-1.32.0.drv",
+      "description": "Kubernetes CLI",
+      "install_id": "kubectl",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "kubectl-1.32.0",
+      "pname": "kubectl",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.32.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "convert": "/nix/store/s8pn6j48wrwr9fh5x2836ywcnai2wxma-kubectl-1.32.0-convert",
+        "man": "/nix/store/i4jqhs1mw5v0igk0ry0y1w22rb1lbykz-kubectl-1.32.0-man",
+        "out": "/nix/store/bji52bdp0fpnl11lqvwbqjbvs84zmprz-kubectl-1.32.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
