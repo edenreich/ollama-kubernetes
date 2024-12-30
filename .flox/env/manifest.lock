@@ -11,6 +11,9 @@
       },
       "kubectl": {
         "pkg-path": "kubectl"
+      },
+      "watch": {
+        "pkg-path": "watch"
       }
     },
     "hook": {},
@@ -384,6 +387,114 @@
         "convert": "/nix/store/s8pn6j48wrwr9fh5x2836ywcnai2wxma-kubectl-1.32.0-convert",
         "man": "/nix/store/i4jqhs1mw5v0igk0ry0y1w22rb1lbykz-kubectl-1.32.0-man",
         "out": "/nix/store/bji52bdp0fpnl11lqvwbqjbvs84zmprz-kubectl-1.32.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "watch",
+      "broken": false,
+      "derivation": "/nix/store/ipyg4vjijhj39w1a8fgxy4avv5pjby9k-watch-procps-4.0.4.drv",
+      "install_id": "watch",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "watch-procps-4.0.4",
+      "pname": "watch",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "procps-4.0.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/i42saxn0lgcvh7x6w59q5n7j4f3ddhd0-watch-procps-4.0.4"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "watch",
+      "broken": false,
+      "derivation": "/nix/store/h2ggfsznncprfndvgkysmmbpf0n63wmk-watch-procps-4.0.4.drv",
+      "install_id": "watch",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "watch-procps-4.0.4",
+      "pname": "watch",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "procps-4.0.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/pkdnm87wcp3yw223ijjxl61jgm5r6zh3-watch-procps-4.0.4"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "watch",
+      "broken": false,
+      "derivation": "/nix/store/bflx1hzcfcqyqyfnnav0wjvmra3zbryf-watch-procps-4.0.4.drv",
+      "install_id": "watch",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "watch-procps-4.0.4",
+      "pname": "watch",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "procps-4.0.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/c9bgyyfapwlch1lzlcfxz0z3rymmnnvl-watch-procps-4.0.4"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "watch",
+      "broken": false,
+      "derivation": "/nix/store/7ks81j5ysfm6s4xir6vj3haghpkrdg5s-watch-procps-4.0.4.drv",
+      "install_id": "watch",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "watch-procps-4.0.4",
+      "pname": "watch",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "procps-4.0.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/f5z5za7a32fb4qwxlz7y6i1mr8xx5818-watch-procps-4.0.4"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
