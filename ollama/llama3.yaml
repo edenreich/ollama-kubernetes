@@ -1,0 +1,9 @@
+---
+apiVersion: ollama.ayaka.io/v1
+kind: Model
+metadata:
+  name: lama3.3
+spec:
+  replicas: 1
+  image: llama3.3:70b-instruct-q2_K
+  imagePullPolicy: IfNotPresent
