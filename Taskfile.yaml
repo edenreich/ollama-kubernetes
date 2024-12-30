@@ -1,0 +1,16 @@
+---
+version: '3'
+
+tasks:
+  cluster-create:
+    cmds:
+      - ctlptl apply -f Cluster.yaml
+      - kubectl apply --server-side=true -f https://raw.githubusercontent.com/nekomeowww/ollama-operator/v0.10.1/dist/install.yaml
+
+  cluster-delete:
+    cmds:
+      - ctlptl delete -f Cluster.yaml
+
+  clean:
+    cmds:
+      - task: cluster-delete
