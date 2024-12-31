@@ -21,3 +21,10 @@ Run: `kubectl port-forward svc/openweb-ui-service 8080:8080`
 Open: `http://localhost:8080`
 
 Create a dummy first account.
+
+## Troubleshooting
+
+The logs of ollama Kubernetes operator:
+```
+kubectl -n ollama-operator-system logs deploy/ollama-operator-controller-manager -f
+```
