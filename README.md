@@ -28,3 +28,8 @@ The logs of ollama Kubernetes operator:
 ```
 kubectl -n ollama-operator-system logs deploy/ollama-operator-controller-manager -f
 ```
+
+The logs of the ollama API to troubleshoot the models being downloaded or any other issues related to API:
+```
+kubectl logs ollama-models-store-0 -f
+```
