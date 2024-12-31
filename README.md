@@ -9,7 +9,15 @@ A POC on How-to deploy Ollama onto Kubernetes.
 
 ## Quick Start
 
-1. flox activate
-2. task cluster-create
-3. kubectl apply -f ollama/
-4. kubectl apply -f openweb-ui/
+1. `flox activate`
+2. `task cluster-create`
+3. `kubectl apply -f ollama/`
+4. `kubectl apply -f openweb-ui/`
+
+## UI
+
+Run: `kubectl port-forward svc/openweb-ui-service 8080:8080`
+
+Open: `http://localhost:8080`
+
+Create a dummy first account.
