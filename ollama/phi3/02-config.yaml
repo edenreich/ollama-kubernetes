@@ -3,7 +3,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: phi3
-  namespace: llms
+  namespace: ollama
   labels:
     app: phi3
 data:

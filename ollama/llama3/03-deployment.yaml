@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: llama3
-  namespace: llms
+  namespace: ollama
   labels:
     app: llama3
 spec:

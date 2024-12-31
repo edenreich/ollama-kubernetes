@@ -7,4 +7,4 @@ metadata:
   labels:
     app: openweb-ui
 data:
-  OLLAMA_BASE_URLS: "http://phi3.llms:8080;http://llama3.llms:8080"
+  OLLAMA_BASE_URLS: "http://phi3.ollama:8080;http://llama3.ollama:8080"
