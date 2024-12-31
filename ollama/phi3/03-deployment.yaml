@@ -25,9 +25,11 @@ spec:
             limits:
               cpu: 6000m
               memory: 10000Mi
+              # nvidia.com/gpu: 1 # When deploying on GPU, otherwise let it use the CPU
             requests:
               cpu: 5000m
               memory: 6000Mi
+              # nvidia.com/gpu: 1 # When deploying on GPU, otherwise let it use the CPU
           envFrom:
             - configMapRef:
                 name: phi3
