@@ -2,34 +2,68 @@
 
 A POC on How-to deploy Ollama onto Kubernetes.
 
-## Dependencies
+## Prerequisites
 
-- flox
-- docker
+- [flox](https://flox.dev/docs/install-flox/)
+- [docker](https://docs.docker.com/get-docker/)
 
 ## Quick Start
 
-1. `flox activate`
-2. `task cluster-create`
-3. `kubectl apply -f ollama/`
-4. `kubectl apply -f openweb-ui/`
+1. Activate the flox environment:
+
+```sh
+flox activate
+```
+
+2. Create the Kubernetes cluster:
+
+```sh
+task cluster-create
+```
+
+3. Deploy the specific LLM:
+
+```sh
+kubectl apply -f ollama/phi3/
+```
+
+4. Deploy the OpenWeb-UI:
+
+```sh
+kubectl apply -f openweb-ui/
+```
 
 ## UI
 
-Run: `kubectl port-forward svc/openweb-ui-service 8080:8080`
+Run: `kubectl -n openweb-ui port-forward svc/openweb-ui-service 8080:8080`
 
 Open: `http://localhost:8080`
 
 Create a dummy first account.
 
+## Gotchas
+
+I've tried to use the [Ollama operator](https://github.com/nekomeowww/ollama-operator), but it seems to be partially implemented - which is fine, because it's on an early stage. Also, by design, it downloads all LLMs to a single StatefulSet, which might not be scalable. Ideally, you would want each pod to be independent rather than all the eggs in one basket.
+
+So I've decided to go with the approach of breaking the manifests down to native Kubernetes manifests. It's also easier to configure it this way.
+
+Because it's a local environment, I'm downloading the LLMs on pod startup to a shared directory inside each k3d container that serves as a "node". In production, a different method like a real NFS with periodical backups should be used.
+
 ## Troubleshooting
 
-The logs of ollama Kubernetes operator:
-```
-kubectl -n ollama-operator-system logs deploy/ollama-operator-controller-manager -f
+Check that the volume is created inside of the "kubernetes worker node".
+
+```sh
+docker exec -it k3d-k3s-default-agent-2 sh -c 'ls /nfs/ollama-models-store/'
 ```
 
-The logs of the ollama API to troubleshoot the models being downloaded or any other issues related to API:
+Track that the model is being downloaded - depends on what model you're deploying, the download can take a while, if the pod dies, it will continue to download from where it stopped:
+
+```sh
+docker exec -it k3d-k3s-default-agent-2 sh -c 'watch du -sh /nfs/ollama-models-store/'
 ```
-kubectl logs ollama-models-store-0 -f
-```
+
+## TODOs
+
+- Find a way to make it seamless to deploy the same setup to a production cluster - use service account, limited security context, abstracted volume solution that works also locally.
+- Optional: create a GKE or any other cloud providers example.

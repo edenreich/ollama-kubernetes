@@ -12,4 +12,10 @@ k3d:
         extraArgs:
           - arg: --disable=traefik
             nodeFilters:
-              - server:*
+              - server:0
+    # Simulate a multi-node cluster with NFS, in production you would use a real NFS server
+    volumes:
+      - volume: nfs:/nfs
+        nodeFilters:
+          - server:0
+          - agent:*

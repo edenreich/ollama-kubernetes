@@ -1,13 +1,12 @@
 ---
-version: '3'
+version: "3"
 
 tasks:
   cluster-create:
     cmds:
       - ctlptl apply -f Cluster.yaml
       - helm repo add nginx-stable https://helm.nginx.com/stable && helm repo update
-      - helm install nginx-ingress nginx-stable/nginx-ingress
-      - kubectl apply --server-side=true -f https://raw.githubusercontent.com/nekomeowww/ollama-operator/v0.10.1/dist/install.yaml
+      - helm install nginx-ingress nginx-stable/nginx-ingress --namespace nginx-ingress --create-namespace
 
   cluster-delete:
     cmds:

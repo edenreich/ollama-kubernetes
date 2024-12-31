@@ -1,9 +1,0 @@
----
-apiVersion: ollama.ayaka.io/v1
-kind: Model
-metadata:
-  name: phi3
-spec:
-  replicas: 1
-  image: phi3:3.8b
-  imagePullPolicy: IfNotPresent

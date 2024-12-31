@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: openweb-ui
+  namespace: openweb-ui
+  labels:
+    app: openweb-ui
+data:
+  OLLAMA_BASE_URLS: "http://phi3.llms:8080;http://llama3.llms:8080"

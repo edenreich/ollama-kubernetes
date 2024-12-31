@@ -2,14 +2,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: openweb-ui-service
+  name: llama3
+  namespace: llms
   labels:
-    app: openweb-ui
+    app: llama3
 spec:
-  type: ClusterIP
   selector:
-    app: openweb-ui
+    app: llama3
   ports:
     - protocol: TCP
       port: 8080
-      targetPort: 8080
+      targetPort: 11434
