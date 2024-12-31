@@ -65,5 +65,6 @@ docker exec -it k3d-k3s-default-agent-2 sh -c 'watch du -sh /nfs/ollama-models-s
 
 ## TODOs
 
+- Configure GPUs, currently it's using the CPU instead.
 - Find a way to make it seamless to deploy the same setup to a production cluster - use service account, limited security context, abstracted volume solution that works also locally.
 - Optional: create a GKE or any other cloud providers example.
