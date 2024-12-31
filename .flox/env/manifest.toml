@@ -19,6 +19,8 @@ kubectl.pkg-path = "kubectl"
 ctlptl.pkg-path = "ctlptl"
 go-task.pkg-path = "go-task"
 watch.pkg-path = "watch"
+helm.pkg-path = "helm"
+helm.systems = ["aarch64-linux", "x86_64-linux"]
 # gum.pkg-path = "gum"
 # gum.version = "^0.14.5"
 

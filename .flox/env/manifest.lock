@@ -9,6 +9,13 @@
       "go-task": {
         "pkg-path": "go-task"
       },
+      "helm": {
+        "pkg-path": "helm",
+        "systems": [
+          "aarch64-linux",
+          "x86_64-linux"
+        ]
+      },
       "kubectl": {
         "pkg-path": "kubectl"
       },
@@ -259,6 +266,64 @@
       ],
       "outputs": {
         "out": "/nix/store/ds3s43anl3rwk5vz80n4kck2g7z7i1lp-go-task-3.40.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "helm",
+      "broken": false,
+      "derivation": "/nix/store/dljqgfnzdq61v8xinrhymzaa3y2vk8g0-helm-0.9.0.drv",
+      "description": "Free, cross-platform, polyphonic synthesizer",
+      "install_id": "helm",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "helm-0.9.0",
+      "pname": "helm",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.9.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/bwm375kwyppqcy46cb0mfjrvx2g4i3f4-helm-0.9.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "helm",
+      "broken": false,
+      "derivation": "/nix/store/9mc2xdsy4pq2g8y4c3gxmspzi5p6840r-helm-0.9.0.drv",
+      "description": "Free, cross-platform, polyphonic synthesizer",
+      "install_id": "helm",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=634fd46801442d760e09493a794c4f15db2d0cbb",
+      "name": "helm-0.9.0",
+      "pname": "helm",
+      "rev": "634fd46801442d760e09493a794c4f15db2d0cbb",
+      "rev_count": 729082,
+      "rev_date": "2024-12-27T09:21:16Z",
+      "scrape_date": "2024-12-28T03:56:01Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.9.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9rbz435svg3ps5byngi3d8zam68avvk6-helm-0.9.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
