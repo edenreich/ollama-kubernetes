@@ -10,7 +10,7 @@ tasks:
 
   cluster-delete:
     cmds:
-      - ctlptl delete -f Cluster.yaml
+      - ctlptl delete --cascade true -f Cluster.yaml
 
   clean:
     cmds:
